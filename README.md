@@ -1,3 +1,3 @@
 # SystemC tutorial
 
-This is brief intorduction to SystemC modeling language, which is based on C++
+This is brief introduction to SystemC modeling language, which is based on C++
