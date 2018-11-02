@@ -1,5 +1,9 @@
 # SystemC tutorial
 
+To do:
+- How to compile systemc files
+- Keywords introduced to C++
+
 ## Whats is SystemC
 
 SystemC is a set of classes and libraries that provide event driven simulation for a system modeling language called SystemC. SystemC is based on C++, which gives it speed and flexibility.
