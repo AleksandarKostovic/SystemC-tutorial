@@ -3,6 +3,7 @@
 To do:
 - How to compile systemc files
 - Keywords introduced to C++
+- Make small examples
 
 ## Whats is SystemC
 
