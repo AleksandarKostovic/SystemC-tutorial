@@ -8,7 +8,7 @@ Being based on C++, SystemC doesnt require any special EDA tool in order to use 
 
 Knowledge of C++ is required in order to understand this.
 
-## Instalation
+## Installation
 
 Dependencies:
 
@@ -20,11 +20,6 @@ sudo apt install build-essential make wget
 - For Arch, Manjaro and other Arch based distros
 ```
 sudo pacman -S gcc make wget
-```
-- For Red Hat and CentOS
-```
-sudo yum groupinstall "Development Tools"
-sudo yum install kernel-devel kernel-headers wget
 ```
 
 SystemC can be downloaded, free of charge, from Accellera's website.
