@@ -1,7 +1,6 @@
 # SystemC tutorial
 
 To do:
-- How to compile systemc files
 - Keywords introduced to C++
 - Make small examples
 
@@ -51,7 +50,7 @@ sudo make install
 ```
 
 
-## Compile a program
+## Compile the program
 
 First clone this repo
 
