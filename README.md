@@ -49,3 +49,31 @@ sudo ../configure --prefix=/usr/local/systemc-2.3.2/
 sudo make
 sudo make install
 ```
+
+
+## Compile a program
+
+First clone this repo
+
+```
+
+```
+
+Then run the command to compile SystemC into exacutable called hello
+
+```
+g++ -I. -I /usr/local/systemc-2.3.2/include -L. -L/usr/local/systemc-2.3.2/lib-linux64 -Wl,-rpath=/usr/local/systemc-2.3.2/lib-linux64 -lsystemc -lm -o hello hello.cpp
+```
+
+Now, type `./hello` to run the exectutable and you get this:
+
+```
+
+        SystemC 2.3.2-Accellera --- Oct 30 2018 15:06:05
+        Copyright (c) 1996-2017 by all Contributors,
+        ALL RIGHTS RESERVED
+
+ Hello World! 
+
+
+```
