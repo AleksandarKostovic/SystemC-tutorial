@@ -64,6 +64,9 @@ Then run the command to compile SystemC into exacutable called hello
 g++ -I. -I /usr/local/systemc-2.3.2/include -L. -L/usr/local/systemc-2.3.2/lib-linux64 -Wl,-rpath=/usr/local/systemc-2.3.2/lib-linux64 -lsystemc -lm -o hello hello.cpp
 ```
 
+(In examples i will provide makefiles so you dont have to type long commands)
+
+
 Now, type `./hello` to run the exectutable and you get this:
 
 ```
