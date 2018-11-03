@@ -75,5 +75,4 @@ Now, type `./hello` to run the exectutable and you get this:
 
  Hello World! 
 
-
 ```
