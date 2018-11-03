@@ -5,7 +5,7 @@ SC_MODULE (hello) {  // module named hello
   }
 
   void say_hello() {
-    std::cout << "Hello World!" << std::endl;
+    std::cout << "\n Hello World! \n" << std::endl;
   }
 };
 
