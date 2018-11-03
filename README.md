@@ -72,7 +72,6 @@ Now, type `./hello` to run the exectutable and you get this:
         SystemC 2.3.2-Accellera --- Oct 30 2018 15:06:05
         Copyright (c) 1996-2017 by all Contributors,
         ALL RIGHTS RESERVED
-
- Hello World! 
+Hello World!
 
 ```
