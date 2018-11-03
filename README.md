@@ -56,7 +56,7 @@ sudo make install
 First clone this repo
 
 ```
-
+git clone https://github.com/AleksandarKostovic/SystemC-tutorial.git
 ```
 
 Then run the command to compile SystemC into exacutable called hello
