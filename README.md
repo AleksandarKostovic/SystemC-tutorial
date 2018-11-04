@@ -67,7 +67,7 @@ g++ -I. -I /usr/local/systemc-2.3.2/include -L. -L/usr/local/systemc-2.3.2/lib-l
 (In examples i will provide makefiles so you dont have to type long commands)
 
 
-Now, type `./hello` to run the exectutable and you get this:
+Now, type `./hello` to run the exectutable and you should get this:
 
 ```
 
