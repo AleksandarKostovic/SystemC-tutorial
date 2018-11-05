@@ -77,3 +77,5 @@ Now, type `./hello` to run the exectutable and you should get this:
 Hello World!
 
 ```
+
+## Keywords introduced and some building concepts
