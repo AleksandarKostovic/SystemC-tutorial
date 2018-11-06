@@ -81,6 +81,6 @@ Hello World!
 ## Keywords introduced and some building concepts
 
 ## sc_main
-```cpp
+```c++
 sc_main
 ```
