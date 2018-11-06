@@ -79,3 +79,8 @@ Hello World!
 ```
 
 ## Keywords introduced and some building concepts
+
+## sc_main
+```cpp
+sc_main
+```
