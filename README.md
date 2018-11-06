@@ -81,6 +81,7 @@ Hello World!
 ## Keywords introduced and some building concepts
 
 ## sc_main
-```c
+```
 sc_main
 ```
+is the master function. When building a system based on SystemC, sc_main is going the whole system's main function.
