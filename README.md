@@ -81,7 +81,4 @@ Hello World!
 ## Keywords introduced and some building concepts
 
 ## sc_main
-```
-sc_main
-```
-is the master function. When building a system based on SystemC, sc_main is going the whole system's main function.
+`sc_main` is the master function. When building a system based on SystemC, `sc_main` is going the whole system's main function. You can build multiple functions, but `sc_main` must be present.
