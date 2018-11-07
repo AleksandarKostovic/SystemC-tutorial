@@ -81,4 +81,23 @@ Hello World!
 ## Keywords introduced and some building concepts
 
 ## sc_main
-`sc_main` is the master function. When building a system based on SystemC, `sc_main` is going the whole system's main function. You can build multiple functions, but `sc_main` must be present.
+`sc_main` is the master function. When building a system based on SystemC, `sc_main` is going the whole system's main function. You can build multiple functions, but `sc_main` must be present. Like in hello world example:
+
+```c++
+#include <systemc.h>
+
+SC_MODULE (hello) {  // module named hello
+  SC_CTOR (hello) {  //constructor phase, which is empty in this case
+  }
+
+  void say_hello() {
+    std::cout << "Hello World!" << std::endl;
+  }
+};
+
+int sc_main(int argc, char* argv[]) {
+  hello h("hello");
+  h.say_hello();
+  return 0;
+}
+```
