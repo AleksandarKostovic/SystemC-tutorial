@@ -101,3 +101,7 @@ int sc_main(int argc, char* argv[]) {
   return 0;
 }
 ```
+
+We have two functions. The `say_hello` is responsable for outputing text, while the `sc_main` is passing the `say_hello` function and returning 0(success).
+
+## SC_MODULE
