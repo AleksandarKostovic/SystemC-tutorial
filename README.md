@@ -110,7 +110,7 @@ We have two functions. The `say_hello` is responsable for outputing text, while 
 
 ## SC_CTOR
 
-`SC_CTOR` is macro file for a SystemC contrructor. It does serval things:
+`SC_CTOR` is macro file for a SystemC contructor. It does serval things:
  - Declares sensitivty list.
  
  In SystemC a sensitivity list is part of constructor which declares which signals are most sensitive. For example:
