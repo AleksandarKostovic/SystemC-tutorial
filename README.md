@@ -107,3 +107,19 @@ We have two functions. The `say_hello` is responsable for outputing text, while 
 ## SC_MODULE
 
 `SC_MODULE` is meant to be a declaration of a complete module/part. It has the same intention as `module` Verilog, but just in SystemC style.
+
+## SC_CTOR
+
+`SC_CTOR` is macro file for a SystemC contrructor. It does serval things:
+ - Declares sensitivty list.
+ 
+ In SystemC a sensitivity list is part of constructor which declares which signals are most sensitive. For example:
+ 
+ ```c++
+ sensitive << clk.pos(); 
+ ```
+ This tells the module that the design is sensitive to clock, the positive edge in this case.
+ 
+ - Register each function as a process happening in a module.
+ 
+ - Create design hierarchy if you are including serval modules to give whole design sense of module usage.
