@@ -4,7 +4,7 @@ To do:
 - Keywords and concepts introduced to C++
 - Make small examples
 
-## Whats is SystemC
+## What is SystemC
 
 SystemC is a set of classes and libraries that provide event driven simulation for a system modeling language called SystemC. SystemC is based on C++, which gives it speed and flexibility.
 
@@ -58,7 +58,7 @@ First clone this repo
 git clone https://github.com/AleksandarKostovic/SystemC-tutorial.git
 ```
 
-Then run the command to compile SystemC into exacutable called hello
+Then run the command to compile SystemC into executable called hello
 
 ```
 g++ -I. -I /usr/local/systemc-2.3.2/include -L. -L/usr/local/systemc-2.3.2/lib-linux64 -Wl,-rpath=/usr/local/systemc-2.3.2/lib-linux64 -lsystemc -lm -o hello hello.cpp
@@ -110,7 +110,7 @@ We have two functions. The `say_hello` is responsable for outputing text, while 
 
 ## SC_CTOR
 
-`SC_CTOR` is macro file for a SystemC contructor. It does serval things:
+`SC_CTOR` is macro file for a SystemC contructor. It does several things:
  - Declares sensitivty list.
  
  In SystemC a sensitivity list is part of constructor which declares which signals are most sensitive. For example:
