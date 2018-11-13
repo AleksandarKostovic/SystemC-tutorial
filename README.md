@@ -105,3 +105,5 @@ int sc_main(int argc, char* argv[]) {
 We have two functions. The `say_hello` is responsable for outputing text, while the `sc_main` is passing the `say_hello` function and returning 0(success).
 
 ## SC_MODULE
+
+`SC_MODULE` is meant to be a declaration of a complete module/part. It has the same intention as `module` Verilog, but just in SystemC style.
