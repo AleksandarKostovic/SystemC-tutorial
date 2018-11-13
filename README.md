@@ -106,7 +106,7 @@ We have two functions. The `say_hello` is responsable for outputing text, while 
 
 ## SC_MODULE
 
-`SC_MODULE` is meant to be a declaration of a complete module/part. It has the same intention as `module` Verilog, but just in SystemC style.
+`SC_MODULE` is meant to be a declaration of a complete module/part. It has the same intention as `module` in Verilog, but just in SystemC style.
 
 ## SC_CTOR
 
