@@ -31,20 +31,20 @@ SystemC can be downloaded, free of charge, from Accellera's website.
 Steps:
 1. Open terminal and type
 ```
-wget http://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.2.tar.gz
+wget http://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.3.gz
 ```
 This downloads the SystemC tarball
 
 2. Unpacking the package and making directories
 ```
-tar -xzf systemc-2.3.2.tar.gz
-sudo mkdir /usr/local/systemc-2.3.2
-cd systemc-2.3.2 && mkdir objdir && cd objdir
+tar -xzf systemc-2.3.3.tar.gz
+sudo mkdir /usr/local/systemc-2.3.3/
+cd systemc-2.3.3 && mkdir objdir && cd objdir
 ```
 
 3. Final installation
 ```
-sudo ../configure --prefix=/usr/local/systemc-2.3.2/
+sudo ../configure --prefix=/usr/local/systemc-2.3.3/
 sudo make
 sudo make install
 ```
@@ -66,7 +66,7 @@ git clone https://github.com/AleksandarKostovic/SystemC-tutorial.git
 Then run the command to compile SystemC into executable called hello
 
 ```
-g++ -I. -I /usr/local/systemc-2.3.2/include -L. -L/usr/local/systemc-2.3.2/lib-linux64 -Wl,-rpath=/usr/local/systemc-2.3.2/lib-linux64 -lsystemc -lm -o hello hello.cpp
+g++ -I. -I /usr/local/systemc-2.3.2/include -L. -L/usr/local/systemc-2.3.3/lib-linux64 -Wl,-rpath=/usr/local/systemc-2.3.3/lib-linux64 -lsystemc -lm -o hello hello.cpp
 ```
 
 (In examples i will provide makefiles so you dont have to type long commands)
@@ -76,8 +76,8 @@ Now, type `./hello` to run the exectutable and you should get this:
 
 ```
 
-        SystemC 2.3.2-Accellera --- Oct 30 2018 15:06:05
-        Copyright (c) 1996-2017 by all Contributors,
+        SystemC 2.3.3-Accellera --- Nov 15 2018 12:20:10
+        Copyright (c) 1996-2018 by all Contributors,
         ALL RIGHTS RESERVED
 Hello World!
 
