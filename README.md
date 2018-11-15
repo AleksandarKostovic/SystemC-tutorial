@@ -10,7 +10,7 @@ SystemC is a set of classes and libraries that provide event driven simulation f
 
 Being based on C++, SystemC doesnt require any special EDA tool in order to use it. All you need is a C++ compiler that you can link your installation to.
 
-Knowledge of C++ is required in order to understand this.
+Knowledge of C++ and basich hardware concepts(like clocks) is required in order to understand this.
 
 ## Installation
 
