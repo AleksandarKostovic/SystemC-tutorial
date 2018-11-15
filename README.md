@@ -49,8 +49,13 @@ sudo make
 sudo make install
 ```
 
+## For Visual Studio 2010 and up
+
+SystemC directory
 
 ## Compile the program
+
+### For Linux
 
 First clone this repo
 
