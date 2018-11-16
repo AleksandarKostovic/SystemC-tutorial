@@ -51,7 +51,7 @@ sudo make install
 
 ## For Visual Studio 2010 and up
 
-SystemC directory
+To do
 
 ## Compile the program
 
