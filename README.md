@@ -51,7 +51,7 @@ sudo make install
 
 ## For Visual Studio 2010 and up
 
-To do
+To come
 
 ## Compile the program
 
