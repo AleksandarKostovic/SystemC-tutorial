@@ -49,10 +49,6 @@ sudo make
 sudo make install
 ```
 
-## For Visual Studio 2010 and up
-
-To come
-
 ## Compile the program
 
 ### For Linux
