@@ -62,7 +62,7 @@ git clone https://github.com/AleksandarKostovic/SystemC-tutorial.git
 Then run the command to compile SystemC into executable called hello
 
 ```
-g++ -I. -I /usr/local/systemc-2.3.2/include -L. -L/usr/local/systemc-2.3.3/lib-linux64 -Wl,-rpath=/usr/local/systemc-2.3.3/lib-linux64 -lsystemc -lm -o hello hello.cpp
+g++ -I. -I /usr/local/systemc-2.3.3/include -L. -L/usr/local/systemc-2.3.3/lib-linux64 -Wl,-rpath=/usr/local/systemc-2.3.3/lib-linux64 -lsystemc -lm -o hello hello.cpp
 ```
 
 (In examples i will provide makefiles so you dont have to type long commands)
