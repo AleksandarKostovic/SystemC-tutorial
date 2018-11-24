@@ -37,7 +37,7 @@ This downloads the SystemC tarball
 
 2. Unpacking the package and making directories
 ```
-tar -xzf systemc-2.3.3.tar.gz
+tar -xzf systemc-2.3.3.gz
 sudo mkdir /usr/local/systemc-2.3.3/
 cd systemc-2.3.3 && mkdir objdir && cd objdir
 ```
