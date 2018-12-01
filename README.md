@@ -124,3 +124,8 @@ We have two functions. The `say_hello` is responsable for outputing text, while 
  - Register each function as a process happening in a module.
  
  - Create design hierarchy if you are including serval modules to give whole design sense of module usage.
+ 
+ ## SC_(C)THREAD
+ 
+ Thread is a function made to act like a hardware process. It has a few features:
+ - Runs concurrently - Multiple processes can be started at the same time(note that every function in systemc is a process)
