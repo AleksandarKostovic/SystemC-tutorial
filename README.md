@@ -125,7 +125,17 @@ We have two functions. The `say_hello` is responsable for outputing text, while 
  
  - Create design hierarchy if you are including serval modules to give whole design sense of module usage.
  
- ## SC_(C)THREAD
+ ## Threads
  
  Thread is a function made to act like a hardware process. It has a few features:
  - Runs concurrently - Multiple processes can be started at the same time(note that every function in systemc is a process)
+ - They are sensitive to signals.
+ - They are not called by user, but rather always active.
+ - There are three types of threads: `SC_METHOD`, `SC_THREAD`, `SC_CTHREAD`.
+ 
+### `SC_METHOD`
+- They execute once every sensiteve event
+- They run continuosly
+- Used to describe combinational logic and very simple sequential logic
+- Are synthesizable
+- Are comparable to verilog's `always @` block
