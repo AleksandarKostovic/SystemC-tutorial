@@ -1,4 +1,4 @@
-#include "systemc.h"
+#include <systemc.h>
 #include "counter.cpp"
 
 int sc_main (int argc, char* argv[]) {
