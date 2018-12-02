@@ -6,11 +6,10 @@ SC_MODULE (first_counter) {
   sc_in<bool>   enable;      // Active high enable signal for counter
   sc_out<sc_uint<4> > counter_out; // 4 bit vector output of the counter
 
-  //------------Local Variables Here---------------------
+  //Local Variables
   sc_uint<4>	count;
 
-  //------------Code Starts Here-------------------------
-  // Below function implements actual counter logic
+  // Counter logic
   void incr_count () {
     // At every rising edge of clock we check if reset is active
     // If active, we load the counter output with 4'b0000
