@@ -8,7 +8,7 @@ int sc_main (int argc, char* argv[]) {
   sc_signal<sc_uint<4> > counter_out;
   int i = 0;
   // Connect the DUT
-  first_counter counter("COUNTER");
+  counter counter("COUNTER");
   counter.clock(clock);
   counter.reset(reset);
   counter.enable(enable);
