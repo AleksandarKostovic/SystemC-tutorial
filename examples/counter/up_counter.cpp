@@ -1,4 +1,4 @@
-//This part is syntesizable
+//This function is syntesizable
 
 #inlcude "up_counter.h"
 
