@@ -16,16 +16,9 @@ SC_MODULE (up_down_counter) {
   //internal variable
   sc_uint<8>  count;
 
-  //up count function
-  void counter () {
-    if (reset.read()) { 
-      count = 0 ;
-    } else if (enable.read()) {
-      count = count + 1;
-    }
-    out.write(count);
-  }
-
+  //up count function which will leater be defined
+  void counter ();
+  
   //constructor phase
   SC_CTOR(up_down_counter) {
     SC_METHOD (counter);
