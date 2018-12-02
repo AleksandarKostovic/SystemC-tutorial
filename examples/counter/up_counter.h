@@ -17,7 +17,7 @@ SC_MODULE (up_down_counter) {
   sc_uint<8>  count;
 
   //up count function which will leater be defined
-  void counter ();
+  void counter_main ();
   
   //constructor phase
   SC_CTOR(up_down_counter) {
