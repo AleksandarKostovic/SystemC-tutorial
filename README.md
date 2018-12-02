@@ -139,3 +139,7 @@ We have two functions. The `say_hello` is responsable for outputing text, while 
 - Used to describe combinational logic and very simple sequential logic
 - Are synthesizable
 - Are comparable to verilog's `always @` block
+
+### `SC_THREAD`
+
+### `SC_CTHREAD`
