@@ -1,3 +1,10 @@
+////////////////////////////////////////////////
+// This module is not syntesizable!           //
+// Because the cout is not syntesizable.      // 
+// This is used for simulation purposes only. //
+////////////////////////////////////////////////
+
+
 #include <systemc.h>
 
 SC_MODULE (hello) {  // module named hello
