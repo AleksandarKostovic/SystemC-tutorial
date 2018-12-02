@@ -1,3 +1,5 @@
+//This part is syntesizable
+
 #inlcude "up_counter.h"
 
 // main function for counter
