@@ -1,6 +1,6 @@
 #include <systemc.h>
 
-//Module counter
+//module counter
 SC_MODULE (up_down_counter) {
   //input signals
   sc_in    <bool> enable, clk, reset;
