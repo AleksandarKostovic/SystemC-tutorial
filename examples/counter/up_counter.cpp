@@ -2,10 +2,13 @@
 
 //module counter
 SC_MODULE (up_down_counter) {
+  
   //input signals
   sc_in    <bool> enable, clk, reset;
+  
   //output result
   sc_out   <sc_uint<8> > out;
+  
   //internal variable
   sc_uint<8>  count;
 
