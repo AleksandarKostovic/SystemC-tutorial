@@ -1,8 +1,6 @@
 # SystemC tutorial
 
-To do:
-- Keywords and concepts introduced to C++
-- Make small examples
+[Introduction](#what-is-systemc)
 
 ## What is SystemC
 
