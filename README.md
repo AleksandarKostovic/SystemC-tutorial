@@ -140,12 +140,12 @@ We have two functions. The `say_hello` is responsable for outputing text, while 
 - They execute once every sensiteve event
 - They run continuosly
 - Are synthesizable
-- Are comparable to verilog's `always @` block
+- Are comparable to Verilog's `always @` block
 
 ### `SC_THREAD`
 - Runs once at the start of the simulation, than suspends ifself when done.
 - Can conatin infinite loop
-- Comparable to verilog `@ initial` block
+- Comparable to Verilog's `@ initial` block
 - Not syntesyzable
 - Typicly used in testbecnhes to describe clocks
 
@@ -158,3 +158,4 @@ We have two functions. The `say_hello` is responsable for outputing text, while 
 - Run continuously
 - Can take more clock cycles to execute a single iteration
 - Used for 99% of SystemC designs
+- Similar to Verilog's `always @ (pos/negedge clock)`
