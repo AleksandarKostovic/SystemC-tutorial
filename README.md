@@ -136,6 +136,7 @@ We have two functions. The `say_hello` is responsable for outputing text, while 
  - There are three types of threads: `SC_METHOD`, `SC_THREAD`, `SC_CTHREAD`.
  
 ### `SC_METHOD`
+- Limited to single clock cycle. Fine for simple sequential logic
 - They execute once every sensiteve event
 - They run continuosly
 - Used to describe combinational logic and very simple sequential logic
