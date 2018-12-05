@@ -139,10 +139,22 @@ We have two functions. The `say_hello` is responsable for outputing text, while 
 - Limited to single clock cycle. Fine for simple sequential logic
 - They execute once every sensiteve event
 - They run continuosly
-- Used to describe combinational logic and very simple sequential logic
 - Are synthesizable
 - Are comparable to verilog's `always @` block
 
 ### `SC_THREAD`
+- Runs once at the start of the simulation, than suspends ifself when done.
+- Can conatin infinite loop
+- Comparable to verilog `@ initial` block
+- Not syntesyzable
+- Typicly used in testbecnhes to describe clocks
 
-### `SC_CTHREAD`
+### `SC_CTHREAD` - clocked threads
+- Syntesyzable
+- Not limited to one cycle
+- Can contain continuous loops
+- Can contain large blocks of code for control or code with operations
+- Used for behavioral syntesis
+- Run continuously
+- Can take more clock cycles to execute a single iteration
+- Used for 99% of SystemC designs
