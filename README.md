@@ -4,7 +4,7 @@
 - [Installation](#installation)
 - [sc_main](#sc_main)
 - [sc_module](#sc_module)
-- [sc_constructor](#sc_ctor)
+- [sc_constructor(sc_ctor)](#sc_ctor)
 - [Threads](#threads)
 ## What is SystemC
 
