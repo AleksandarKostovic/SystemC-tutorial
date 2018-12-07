@@ -1,6 +1,7 @@
 #include <systemc.h>
 
 #define MEM_SIZE 512
+
 SC_MODULE (Memory) {
 	public:
 	enum Function {
