@@ -17,7 +17,7 @@ Knowledge of C++ and basic hardware concepts(like clocks, gates and waveforms) i
 
 ## Repository structure
 
-This repo contains few sub-direcotires
+This repo contains few sub-directoires
 
      SystemC-tutorial
      ├── examples                 # directory with examples
