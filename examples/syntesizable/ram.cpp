@@ -7,7 +7,7 @@ SC_MODULE (Memory) {
 	enum Function {
 	FUNC_NONE,
 	FUNC_READ,
-	FUNC_WRITE
+	FUNC_WRITE 
 	};
 
 	enum RETSignal {
@@ -25,7 +25,7 @@ SC_MODULE (Memory) {
 
 	SC_CTOR (Memory) {
 		SC_METHOD(execute);
-		sensitive_neg(Port_CLK);
+		sensitive << Port_CLK;
 		m_clkCnt = 0;
 		m_curAddr = 0;
 		m_curData = 0;
