@@ -23,7 +23,7 @@ This repo contains few sub-directoires
      ├── examples                 # directory with examples
      │   ├── counter              # counter example with Makefile, not syntesizable by HLS tools
      │   ├── hello-world          # hello-world example with Makefile, not syntesizable by HLS tools
-     │   └── synthesizable        # directory containint HLS synthesizable examples 
+     │   └── synthesizable        # directory containing HLS synthesizable examples 
 
 
 ## Installation
