@@ -1,6 +1,7 @@
 # SystemC tutorial
 
 - [Introduction](#what-is-systemc)
+- Repository structure
 - [Installation](#installation)
 - [sc_main](#sc_main)
 - [sc_module](#sc_module)
