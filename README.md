@@ -15,6 +15,17 @@ Being based on C++, SystemC doesnt require any special EDA tool in order to use 
 
 Knowledge of C++ and basic hardware concepts(like clocks, gates and waveforms) is required in order to understand this.
 
+## Repository structure
+
+This repo contains few sub-direcotires
+
+     SystemC-tutorial
+     ├── examples                 # directory with examples
+     │   ├── counter              # counter example with Makefile, not syntesizable by HLS tools
+     │   ├── hello-world          # hello-world example with Makefile, not syntesizable by HLS tools
+     │   └── synthesizable        # directory containint HLS synthesizable examples 
+
+
 ## Installation
 
 Dependencies:
