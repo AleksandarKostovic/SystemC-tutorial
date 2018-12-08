@@ -21,9 +21,9 @@ This repo contains few sub-directoires
 
      SystemC-tutorial
      ├── examples                 # directory with examples
-     │   ├── counter              # counter example with Makefile, not syntesizable by HLS tools
-     │   ├── hello-world          # hello-world example with Makefile, not syntesizable by HLS tools
-     │   └── synthesizable        # directory containing HLS synthesizable examples 
+         ├── counter              # counter example with Makefile, not syntesizable by HLS tools
+         ├── hello-world          # hello-world example with Makefile, not syntesizable by HLS tools
+         └── synthesizable        # directory containing HLS synthesizable examples 
 
 
 ## Installation
