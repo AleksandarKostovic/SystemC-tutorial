@@ -19,7 +19,7 @@ Knowledge of C++ and basic hardware concepts(like clocks, gates and waveforms) i
 
 This repository contains few sub-directoires
 
-     SystemC-tutorial
+     SystemC-tutorial             # main directory
      ├── examples                 # directory with examples
          ├── counter              # counter example with Makefile, not syntesizable by HLS tools
          ├── hello-world          # hello-world example with Makefile, not syntesizable by HLS tools
