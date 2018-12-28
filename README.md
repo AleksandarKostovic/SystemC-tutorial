@@ -32,12 +32,12 @@ Dependencies:
 
 - For Debian/Ubuntu and Ubuntu based distros
 ```
-sudo apt install build-essential make wget
+sudo apt install build-essential make wget git
 ```
 
 - For Arch, Manjaro and other Arch based distros
 ```
-sudo pacman -S gcc make wget
+sudo pacman -S gcc make wget git
 ```
 
 SystemC can be downloaded, free of charge, from Accellera's website.
