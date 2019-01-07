@@ -79,7 +79,7 @@ Then run the command to compile SystemC into executable called hello
 g++ -I. -I /usr/local/systemc-2.3.3/include -L. -L/usr/local/systemc-2.3.3/lib-linux64 -Wl,-rpath=/usr/local/systemc-2.3.3/lib-linux64 -lsystemc -lm -o hello hello.cpp
 ```
 
-(In examples i will provide makefiles so you dont have to type long commands)
+In the examples i provided makefiles so all you have to do is type make in the example directory
 
 
 Now, type `./hello` to run the exectutable and you should get this:
