@@ -95,6 +95,14 @@ Hello World!
 
 ## Keywords introduced and some building concepts
 
+## Ports 
+Ports in SystemC are similar to those found in HDL's. They are either inputs, outputs or bidirectional ports. They are desined as:
+- `sc_in` - Input port
+- `sc_out` - Output port
+- `sc_inout` - Bidirectional port
+
+There are ports for clocks like `sc_in_clk` but it is reccomend to use regular ports even for clock. For example `sc_in<bool> clock` is just an input port with boolean nature. Its either high or low(when thinking about clock) - 1 or 0.
+
 ## sc_main
 `sc_main` is the master function. When building a system based on SystemC, `sc_main` is going the whole system's main function. You can build multiple functions, but `sc_main` must be present. Like in hello world example:
 
