@@ -3,6 +3,7 @@
 - [Introduction](#what-is-systemc)
 - [Repository structure](#repository-structure)
 - [Installation](#installation)
+- [Ports](#ports)
 - [sc_main](#sc_main)
 - [sc_module](#sc_module)
 - [sc_constructor(sc_ctor)](#sc_ctor)
