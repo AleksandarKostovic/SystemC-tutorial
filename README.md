@@ -38,7 +38,7 @@ sudo apt install build-essential make wget git gcc g++
 
 - For Arch, Manjaro and other Arch based distros
 ```
-sudo pacman -S gcc make wget git gcc g++
+sudo pacman -S make wget git gcc g++
 ```
 
 SystemC can be downloaded, free of charge, from Accellera's website.
