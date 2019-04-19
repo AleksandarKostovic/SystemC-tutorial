@@ -50,7 +50,7 @@ wget http://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.3.g
 ```
 This downloads the SystemC tarball
 
-2. Unpacking the package and making directories
+2. Unpac the package and make directories
 ```
 tar -xzf systemc-2.3.3.gz
 sudo mkdir /usr/local/systemc-2.3.3/
